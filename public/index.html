@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danmu Live</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Danmu Live</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active" role="presentation"><a href="index.html">Guest </a></li>
+                        <li role="presentation"><a href="admin.html">Admin </a></li>
+                        <li role="presentation"><a class="hidden" href="#">Backup </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div id="dm-screen" class="screen">
+                    <video width="16" height="11" id="video"></video><img class="img-responsive" src="assets/img/yinyang.jpg"></div>
+            </div>
+            <div class="col-sm-4">
+                <div class="panel panel-default comment">
+                    <div class="panel-body">
+                        <ul id="chatlist" class="well chatlist"></ul>
+                        <div class="input-group">
+                            <div class="input-group-addon hidden"><span>Addon</span></div>
+                            <input class="form-control" type="text" placeholder="Your Comment" maxlength="140" id="comment">
+                            <div class="input-group-btn">
+                                <button class="btn btn-primary" type="button" id="send">Send </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Introduction </h3></div>
+                    <div class="panel-body" id="intro"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.fullscreen-min.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/damoo.min.js"></script>
+    <script src="assets/js/socket.io.js"></script>
+    <script src="assets/js/dlive.js"></script>
+</body>
+
+</html>

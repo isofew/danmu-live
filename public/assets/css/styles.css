@@ -1,0 +1,97 @@
+ul.chatlist{
+  overflow-y:scroll;
+  height:240px;
+  padding-left:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  word-wrap:break-word;
+}
+
+div.well.chatlist-well{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+div.screen{
+  margin-bottom:20px;
+}
+
+div.panel.panel-default.comment{
+  margin-bottom:20px;
+}
+
+div.checkbox.inline{
+  margin:0px;
+}
+
+span.checkbox-label{
+  margin-left:6px;
+  font-size:13px;
+}
+
+div.vol-ctrl{
+  height:30px;
+  margin-top:10px;
+}
+
+input.vol-range{
+  width:70%;
+  display:inline;
+}
+
+span.vol-label{
+  margin-right:10px;
+  margin-left:5px;
+}
+
+ul.list-group{
+  margin-bottom:0px;
+}
+
+panel-dark{
+  border-color:#222;
+}
+
+.panel-dark > .panel-heading{
+  background-color:#333;
+}
+
+video{
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index:1;
+  background-size:cover;
+}
+
+canvas{
+  max-height:90%;
+  min-width:100%;
+}
+
+div.input-group{
+  margin-bottom:12px;
+}
+
+.right-align{
+  float:right;
+  margin-right:5px;
+}
+
+textarea.input-lg{
+  margin-bottom:5px;
+  border-color:#eee;
+}
+
+textarea.input-lg.form-control{
+  max-width:100%;
+  min-height:120px;
+  margin-bottom:10px;
+  font-size:15px;
+  color:#333;
+}
+
+li.self{
+  text-decoration:underline;
+}
+
