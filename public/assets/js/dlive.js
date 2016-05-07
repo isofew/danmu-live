@@ -48,7 +48,6 @@
       socket.emit('update', p);
     };
     $('.update').click(update);
-    $('#vload').click()
 
     var mediaEvents = ['play', 'pause', 'volumechange', 'seeking'];
     if (admin) mediaEvents.forEach(function (e) {
